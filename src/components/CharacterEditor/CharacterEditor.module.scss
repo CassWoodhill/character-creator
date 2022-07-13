@@ -1,0 +1,16 @@
+.characterEditor {
+ padding-top: 128px;
+ padding-bottom: 64px;
+}
+
+.maxWidthWrapper {
+}
+
+.characterWrapper {
+}
+
+.controlColumn {
+ @media all and (min-width: 62em) {
+  width: 50%;
+ }
+}
