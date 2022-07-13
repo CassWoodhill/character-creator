@@ -1,8 +1,19 @@
 .footer {
-  position: relative;
-  padding: 64px;
-  background: hsl(0deg, 0%, 5%);
-  color: white;
-  text-align: center;
+ background: hsl(0deg, 0%, 5%);
+ color: white;
+ padding: 4rem;
+ position: relative;
+ text-align: center;
 }
 
+.footer a {
+ color: inherit;
+}
+
+.footer a:hover {
+ text-decoration: none;
+}
+
+.footer a:visited {
+ color: var(--clr-primary-focus);
+}
