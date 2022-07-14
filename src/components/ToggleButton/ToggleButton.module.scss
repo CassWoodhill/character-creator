@@ -1,24 +1,22 @@
 .toggleButton {
- width: 50px;
- height: 50px;
- font-size: 1.25rem;
- font-weight: 700;
- border: 2px solid hsl(0deg, 0%, 5%);
  background: white;
- outline-offset: 2px;
+ border: 2px solid hsl(0deg, 0%, 5%);
  border-radius: 1px;
  cursor: pointer;
  flex-shrink: 0;
- /*
-    HACK: Margin on an outer bound like this is
-    a little gross, but we haven't seen the tools
-    to deal with it yet!
-  */
- margin-right: 4px;
+ font-size: 1.25rem;
+ font-weight: 700;
+ height: 3.125rem;
+ outline-offset: 2px;
+ width: 3.125rem;
+
+ &:not(:first-child) {
+  margin-left: 0.25rem;
+ }
 }
 
 .toggleButton[aria-pressed='true'] {
  background: hsl(0deg, 0%, 5%);
- color: white;
  border-width: 6px;
+ color: white;
 }

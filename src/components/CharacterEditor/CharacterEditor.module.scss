@@ -1,12 +1,17 @@
 .characterEditor {
- padding-top: 128px;
- padding-bottom: 64px;
-}
-
-.maxWidthWrapper {
+ padding-bottom: 4rem;
+ padding-top: 8rem;
 }
 
 .characterWrapper {
+ @media all and (min-width: 62em) {
+  min-height: 31.25rem;
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(calc(-50% + 3.125rem));
+  width: 40%;
+ }
 }
 
 .controlColumn {
