@@ -1,6 +1,8 @@
 :root {
  --page-gutter: 1rem;
  --clr-primary-focus: rgb(255, 100, 100);
+ --clr-bg-grey: hsl(195deg, 20%, 86%);
+ --clr-bg-grey-darker: hsl(180deg, 25%, 92%);
 }
 
 @media all and (min-width: 48em) {
@@ -9,14 +11,15 @@
  }
 }
 
-html,
-body,
-#root {
- height: 100%;
-}
-
 body {
- background-color: hsl(180deg, 25%, 92%);
+ background: linear-gradient(
+   0,
+   var(--clr-bg-grey) 0,
+   var(--clr-bg-grey) 40%,
+   var(--clr-bg-grey-darker) 40%,
+   var(--clr-bg-grey-darker) 100%
+  )
+  fixed;
  margin: 0;
 }
 

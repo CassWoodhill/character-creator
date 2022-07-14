@@ -3,17 +3,10 @@
  border-radius: 8px;
  margin-bottom: 1.5rem;
  padding: 1.125rem 1.5rem;
- max-width: 28rem;
 
  &:not(:last-child) {
   margin-right: 1.25rem;
  }
-
- //  @media all and (min-width: 62em) {
- //   &:not(:first-child) {
- //    margin-left: 0;
- //   }
- //  }
 }
 
 .title {
