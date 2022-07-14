@@ -7,7 +7,7 @@ const ToggleButton = ({ label, color, children, isSelected, ...delegated }) => {
   <button
    {...delegated}
    aria-pressed={isSelected}
-   className={styles.toggleButton}
+   className={styles['toggle-button']}
    style={{ backgroundColor: color }}
   >
    <span className="visually-hidden">{label}</span>

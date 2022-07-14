@@ -1,4 +1,4 @@
-.toggleButton {
+.toggle-button {
  background: white;
  border: 2px solid hsl(0deg, 0%, 5%);
  border-radius: 1px;
@@ -15,7 +15,7 @@
  }
 }
 
-.toggleButton[aria-pressed='true'] {
+.toggle-button[aria-pressed='true'] {
  background: hsl(0deg, 0%, 5%);
  border-width: 6px;
  color: white;

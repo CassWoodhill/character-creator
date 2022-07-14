@@ -25,10 +25,10 @@ function App() {
  const [clothesColor, setClothesColor] = React.useState(defaultClothesColor);
 
  return (
-  <main className={styles.characterEditor}>
+  <main className={styles['character-editor']}>
    <MaxWidthWrapper className={styles.maxWidthWrapper}>
     <Header />
-    <div className={styles.controlColumn}>
+    <div className={styles['control-column']}>
      <ControlPane
       title="Bodies"
       options={bodyOptions}
@@ -68,7 +68,7 @@ function App() {
     </div>
    </MaxWidthWrapper>
 
-   <div className={styles.characterWrapper}>
+   <div className={styles['character-wrapper']}>
     <Character
      body={body}
      head={head}

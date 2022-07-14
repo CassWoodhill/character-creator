@@ -1,9 +1,10 @@
-.characterEditor {
+.character-editor {
  padding-bottom: 4rem;
  padding-top: 8rem;
+ position: relative;
 }
 
-.characterWrapper {
+.character-wrapper {
  @media all and (min-width: 62em) {
   min-height: 31.25rem;
   position: fixed;
@@ -14,8 +15,21 @@
  }
 }
 
-.controlColumn {
+.control-column {
+ bottom: 6.25rem;
+ display: flex;
+ left: 0;
+ overflow: auto;
+ position: absolute;
+ width: 100%;
+ padding: 0 1.25rem;
+
  @media all and (min-width: 62em) {
+  bottom: 0;
+  display: block;
+  padding: 0;
+  overflow: visible;
+  position: relative;
   width: 50%;
  }
 }

@@ -1,0 +1,30 @@
+.control-pane {
+ background-color: white;
+ border-radius: 8px;
+ margin-bottom: 1.5rem;
+ padding: 1.125rem 1.5rem;
+ max-width: 28rem;
+
+ &:not(:last-child) {
+  margin-right: 1.25rem;
+ }
+
+ //  @media all and (min-width: 62em) {
+ //   &:not(:first-child) {
+ //    margin-left: 0;
+ //   }
+ //  }
+}
+
+.title {
+ margin: 0;
+}
+
+.metadata {
+ color: hsl(0deg, 0%, 30%);
+ display: inline-block;
+ font-size: 0.875rem;
+ font-weight: 400;
+ margin-left: 16px;
+ vertical-align: baseline;
+}
